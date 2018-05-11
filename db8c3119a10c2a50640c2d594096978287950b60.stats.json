@@ -3,8 +3,8 @@
     "name": "standard-minifier-js",
     "version": "2.2.3"
   },
-  "totalMinifiedBytes": 2301182,
-  "totalMinifiedGzipBytes": 664204,
+  "totalMinifiedBytes": 2306355,
+  "totalMinifiedGzipBytes": 665620,
   "minifiedBytesByPackage": {
     "packages/meteor.js": 9011,
     "packages/meteor-base.js": 68,
@@ -15,7 +15,7 @@
     "packages/base64.js": 1702,
     "packages/modules-runtime.js": 4097,
     "packages/modules.js": [
-      1536844,
+      1541474,
       {
         "node_modules": {
           "meteor": {
@@ -60,10 +60,10 @@
                 "create.js": 88
               }
             },
-            "package.json": 1029,
             "regenerator": {
               "index.js": 51
-            }
+            },
+            "package.json": 1029
           },
           "core-js": {
             "library": {
@@ -394,6 +394,15 @@
               "object.js": 344
             }
           },
+          "regenerator-runtime": {
+            "package.json": 91,
+            "runtime-module.js": 344,
+            "runtime.js": 6257
+          },
+          "bignumber.js": {
+            "package.json": 76,
+            "bignumber.js": 17505
+          },
           "web3": {
             "package.json": 1515,
             "src": {
@@ -425,14 +434,14 @@
             "src": {
               "index.js": 103,
               "errors.js": 725,
-              "formatters.js": 4867
+              "formatters.js": 5016
             }
           },
           "web3-utils": {
             "package.json": 82,
             "src": {
               "index.js": 3010,
-              "utils.js": 3596,
+              "utils.js": 3674,
               "soliditySha3.js": 2854
             },
             "node_modules": {
@@ -965,11 +974,11 @@
           },
           "buffer": {
             "package.json": 66,
-            "index.js": 18989
+            "index.js": 19455
           },
           "base64-js": {
             "package.json": 69,
-            "index.js": 1371
+            "index.js": 1392
           },
           "ieee754": {
             "package.json": 67,
@@ -1015,7 +1024,7 @@
           "web3-core-method": {
             "package.json": 88,
             "src": {
-              "index.js": 6755
+              "index.js": 6719
             }
           },
           "web3-core-promievent": {
@@ -1042,7 +1051,7 @@
             "package.json": 95,
             "src": {
               "index.js": 779,
-              "subscription.js": 3465
+              "subscription.js": 3482
             }
           },
           "web3-eth": {
@@ -1067,13 +1076,13 @@
           "web3-eth-contract": {
             "package.json": 89,
             "src": {
-              "index.js": 12059
+              "index.js": 12074
             }
           },
           "web3-eth-abi": {
             "package.json": 84,
             "src": {
-              "index.js": 3723,
+              "index.js": 3731,
               "formatters.js": 2954,
               "param.js": 1001,
               "types": {
@@ -1099,7 +1108,7 @@
           "web3-eth-accounts": {
             "package.json": 89,
             "src": {
-              "index.js": 7523
+              "index.js": 7698
             },
             "node_modules": {
               "bluebird": {
@@ -1363,7 +1372,7 @@
             "fixProc.js": 730
           },
           "asn1.js": {
-            "package.json": 70,
+            "package.json": 71,
             "lib": {
               "asn1.js": 196,
               "asn1": {
@@ -1500,22 +1509,22 @@
           "chart.js": {
             "package.json": 72,
             "src": {
-              "chart.js": 1465,
+              "chart.js": 1591,
               "core": {
                 "core.js": 628,
                 "core.defaults.js": 129,
-                "core.helpers.js": 7352,
+                "core.helpers.js": 7434,
                 "core.element.js": 1034,
                 "core.interaction.js": 1989,
-                "core.plugin.js": 1263,
+                "core.layouts.js": 3009,
+                "core.plugins.js": 1209,
+                "core.ticks.js": 527,
                 "core.animation.js": 1743,
-                "core.controller.js": 9278,
-                "core.datasetController.js": 3967,
-                "core.layoutService.js": 3038,
-                "core.scaleService.js": 744,
-                "core.scale.js": 10908,
-                "core.ticks.js": 1469,
-                "core.tooltip.js": 10728
+                "core.controller.js": 9733,
+                "core.datasetController.js": 4025,
+                "core.scaleService.js": 752,
+                "core.scale.js": 10996,
+                "core.tooltip.js": 10784
               },
               "helpers": {
                 "index.js": 178,
@@ -1528,7 +1537,7 @@
                 "index.js": 192,
                 "element.arc.js": 1430,
                 "element.line.js": 1071,
-                "element.point.js": 1549,
+                "element.point.js": 1521,
                 "element.rectangle.js": 2037
               },
               "platforms": {
@@ -1537,17 +1546,17 @@
                 "platform.dom.js": 4180
               },
               "scales": {
-                "scale.linearbase.js": 1400,
+                "scale.linearbase.js": 1932,
                 "scale.category.js": 1680,
-                "scale.linear.js": 2474,
-                "scale.logarithmic.js": 3031,
-                "scale.radialLinear.js": 6460,
-                "scale.time.js": 7479
+                "scale.linear.js": 2440,
+                "scale.logarithmic.js": 3975,
+                "scale.radialLinear.js": 6465,
+                "scale.time.js": 7798
               },
               "controllers": {
-                "controller.bar.js": 5607,
+                "controller.bar.js": 6223,
                 "controller.bubble.js": 2279,
-                "controller.doughnut.js": 4549,
+                "controller.doughnut.js": 4559,
                 "controller.line.js": 6326,
                 "controller.polarArea.js": 3142,
                 "controller.radar.js": 4254,
@@ -1563,9 +1572,10 @@
                 "Chart.Scatter.js": 112
               },
               "plugins": {
-                "plugin.filler.js": 2832,
-                "plugin.legend.js": 5962,
-                "plugin.title.js": 2590
+                "index.js": 154,
+                "plugin.filler.js": 2814,
+                "plugin.legend.js": 5949,
+                "plugin.title.js": 2565
               }
             }
           },
@@ -1586,20 +1596,11 @@
           },
           "moment": {
             "package.json": 70,
-            "moment.js": 51146
-          },
-          "bignumber.js": {
-            "package.json": 76,
-            "bignumber.js": 17505
+            "moment.js": 52565
           },
           "process": {
             "package.json": 94,
             "browser.js": 762
-          },
-          "regenerator-runtime": {
-            "package.json": 91,
-            "runtime-module.js": 344,
-            "runtime.js": 6257
           }
         }
       }
@@ -1874,21 +1875,23 @@
     "packages/autoupdate.js": 1998,
     "packages/global-imports.js": 940,
     "app/app.js": [
-      362097,
+      362640,
       {
         "imports": {
           "ui": {
             "body.html": 72,
-            "template.body.js": 30382,
+            "template.body.js": 24424,
             "body.css": 317,
-            "body.js": 17735,
+            "body.js": 16859,
             "tablesort.js": 2098
           },
           "objects": {
-            "betoken.js": 3437,
+            "betoken.js": 8008,
             "abi": {
-              "BetokenFund.json": 14096,
-              "ControlToken.json": 4137
+              "ERC20.json": 1968,
+              "BetokenFund.json": 11155,
+              "ControlToken.json": 4259,
+              "ShareToken.json": 3624
             }
           }
         },
