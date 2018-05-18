@@ -3,8 +3,8 @@
     "name": "standard-minifier-js",
     "version": "2.2.3"
   },
-  "totalMinifiedBytes": 2306477,
-  "totalMinifiedGzipBytes": 665610,
+  "totalMinifiedBytes": 2193703,
+  "totalMinifiedGzipBytes": 633462,
   "minifiedBytesByPackage": {
     "packages/meteor.js": 9011,
     "packages/meteor-base.js": 68,
@@ -15,7 +15,7 @@
     "packages/base64.js": 1702,
     "packages/modules-runtime.js": 4097,
     "packages/modules.js": [
-      1541474,
+      1428683,
       {
         "node_modules": {
           "meteor": {
@@ -404,7 +404,7 @@
             "bignumber.js": 17505
           },
           "web3": {
-            "package.json": 1515,
+            "package.json": 1584,
             "src": {
               "index.js": 597
             }
@@ -419,7 +419,7 @@
           "web3-core-requestmanager": {
             "package.json": 96,
             "src": {
-              "index.js": 2543,
+              "index.js": 2447,
               "jsonrpc.js": 544,
               "batch.js": 574,
               "givenProvider.js": 871
@@ -434,15 +434,15 @@
             "src": {
               "index.js": 103,
               "errors.js": 725,
-              "formatters.js": 5016
+              "formatters.js": 5074
             }
           },
           "web3-utils": {
             "package.json": 82,
             "src": {
-              "index.js": 3010,
+              "index.js": 2881,
               "utils.js": 3674,
-              "soliditySha3.js": 2854
+              "soliditySha3.js": 2896
             },
             "node_modules": {
               "bn.js": {
@@ -516,12 +516,12 @@
               "crypto.js": 39,
               "stream.js": 35,
               "vm.js": 31,
+              "url.js": 22,
               "http.js": 33,
               "https.js": 34,
               "querystring.js": 34,
               "zlib.js": 33,
               "_stream_transform.js": 46,
-              "url.js": 22,
               "domain.js": 32
             },
             "wrappers": {
@@ -884,18 +884,6 @@
                 "withPublic.js": 159,
                 "privateDecrypt.js": 1342
               },
-              "http-browserify": {
-                "package.json": 75,
-                "index.js": 2540,
-                "lib": {
-                  "request.js": 3024,
-                  "response.js": 1547
-                }
-              },
-              "Base64": {
-                "package.json": 69,
-                "base64.js": 753
-              },
               "url": {
                 "package.json": 64,
                 "url.js": 7532,
@@ -911,6 +899,18 @@
                 "index.js": 93,
                 "decode.js": 546,
                 "encode.js": 527
+              },
+              "http-browserify": {
+                "package.json": 75,
+                "index.js": 2540,
+                "lib": {
+                  "request.js": 3024,
+                  "response.js": 1547
+                }
+              },
+              "Base64": {
+                "package.json": 69,
+                "base64.js": 753
               },
               "https-browserify": {
                 "package.json": 76,
@@ -964,36 +964,26 @@
             "package.json": 85,
             "src": {
               "index.js": 1844
+            },
+            "node_modules": {
+              "bn.js": {
+                "package.json": 67,
+                "lib": {
+                  "bn.js": 43416
+                }
+              }
             }
-          },
-          "bn.js": {
-            "package.json": 67,
-            "lib": {
-              "bn.js": 43428
-            }
-          },
-          "buffer": {
-            "package.json": 66,
-            "index.js": 19455
-          },
-          "base64-js": {
-            "package.json": 69,
-            "index.js": 1392
-          },
-          "ieee754": {
-            "package.json": 67,
-            "index.js": 881
           },
           "web3-providers-ws": {
             "package.json": 89,
             "src": {
-              "index.js": 3171
+              "index.js": 3573
             }
           },
           "websocket": {
-            "package.json": 2118,
+            "package.json": 2086,
             "lib": {
-              "browser.js": 196,
+              "browser.js": 319,
               "version.js": 55
             }
           },
@@ -1012,7 +1002,7 @@
           "web3-providers-ipc": {
             "package.json": 90,
             "src": {
-              "index.js": 3191
+              "index.js": 3078
             }
           },
           "oboe": {
@@ -1024,40 +1014,36 @@
           "web3-core-method": {
             "package.json": 88,
             "src": {
-              "index.js": 6719
+              "index.js": 7133
             }
           },
           "web3-core-promievent": {
             "package.json": 92,
             "src": {
-              "index.js": 528
-            },
-            "node_modules": {
-              "bluebird": {
-                "package.json": 121,
-                "js": {
-                  "browser": {
-                    "bluebird.js": 74908
-                  }
-                }
-              }
+              "index.js": 531
             }
           },
           "eventemitter3": {
             "package.json": 73,
             "index.js": 2474
           },
+          "any-promise": {
+            "package.json": 71,
+            "index.js": 52,
+            "register.js": 884,
+            "loader.js": 540
+          },
           "web3-core-subscriptions": {
             "package.json": 95,
             "src": {
               "index.js": 779,
-              "subscription.js": 3482
+              "subscription.js": 3596
             }
           },
           "web3-eth": {
             "package.json": 80,
             "src": {
-              "index.js": 7238,
+              "index.js": 7292,
               "getNetworkType.js": 775
             }
           },
@@ -1070,13 +1056,13 @@
           "web3-eth-personal": {
             "package.json": 89,
             "src": {
-              "index.js": 1671
+              "index.js": 1794
             }
           },
           "web3-eth-contract": {
             "package.json": 89,
             "src": {
-              "index.js": 12074
+              "index.js": 12089
             }
           },
           "web3-eth-abi": {
@@ -1108,17 +1094,9 @@
           "web3-eth-accounts": {
             "package.json": 89,
             "src": {
-              "index.js": 7698
+              "index.js": 7799
             },
             "node_modules": {
-              "bluebird": {
-                "package.json": 121,
-                "js": {
-                  "browser": {
-                    "bluebird.js": 74908
-                  }
-                }
-              },
               "eth-lib": {
                 "lib": {
                   "account.js": 1804,
@@ -1135,6 +1113,24 @@
                 "rng.js": 81
               }
             }
+          },
+          "bn.js": {
+            "package.json": 67,
+            "lib": {
+              "bn.js": 43428
+            }
+          },
+          "buffer": {
+            "package.json": 66,
+            "index.js": 19455
+          },
+          "base64-js": {
+            "package.json": 69,
+            "index.js": 1448
+          },
+          "ieee754": {
+            "package.json": 68,
+            "index.js": 881
           },
           "elliptic": {
             "package.json": 1911,
@@ -1224,17 +1220,20 @@
           },
           "create-hash": {
             "package.json": 94,
-            "browser.js": 630,
-            "md5.js": 2746,
-            "make-hash.js": 390
+            "browser.js": 394,
+            "md5.js": 90
           },
-          "ripemd160": {
-            "package.json": 68,
-            "index.js": 7569
+          "md5.js": {
+            "package.json": 66,
+            "index.js": 3066
           },
           "hash-base": {
             "package.json": 69,
-            "index.js": 1357
+            "index.js": 1432
+          },
+          "ripemd160": {
+            "package.json": 68,
+            "index.js": 2756
           },
           "sha.js": {
             "index.js": 290,
@@ -1253,7 +1252,7 @@
           "string_decoder": {
             "package.json": 87,
             "lib": {
-              "string_decoder.js": 3631
+              "string_decoder.js": 3587
             }
           },
           "create-hmac": {
@@ -1274,29 +1273,33 @@
           },
           "pbkdf2": {
             "package.json": 67,
-            "index.js": 208,
+            "index.js": 463,
             "lib": {
-              "async.js": 1381,
-              "precondition.js": 303,
+              "precondition.js": 447,
+              "sync.js": 614,
               "default-encoding.js": 148,
-              "sync.js": 610
+              "async.js": 1385
             }
           },
           "browserify-cipher": {
             "package.json": 100,
             "browser.js": 1068
           },
-          "evp_bytestokey": {
+          "browserify-des": {
             "package.json": 74,
-            "index.js": 578
+            "index.js": 667,
+            "modes.js": 197
           },
-          "md5.js": {
-            "package.json": 66,
-            "index.js": 3066,
-            "node_modules": {
-              "hash-base": {
-                "package.json": 69,
-                "index.js": 1432
+          "des.js": {
+            "package.json": 68,
+            "lib": {
+              "des.js": 142,
+              "des": {
+                "utils.js": 3333,
+                "cipher.js": 1952,
+                "des.js": 1635,
+                "cbc.js": 848,
+                "ede.js": 817
               }
             }
           },
@@ -1319,30 +1322,16 @@
             "aes.js": 2908,
             "ghash.js": 1091,
             "streamCipher.js": 414,
-            "decrypter.js": 1890,
+            "decrypter.js": 1949,
             "package.json": 97
           },
           "buffer-xor": {
             "package.json": 70,
             "index.js": 133
           },
-          "browserify-des": {
+          "evp_bytestokey": {
             "package.json": 74,
-            "index.js": 667,
-            "modes.js": 197
-          },
-          "des.js": {
-            "package.json": 68,
-            "lib": {
-              "des.js": 142,
-              "des": {
-                "utils.js": 3333,
-                "cipher.js": 1952,
-                "des.js": 1635,
-                "cbc.js": 848,
-                "ede.js": 817
-              }
-            }
+            "index.js": 578
           },
           "diffie-hellman": {
             "package.json": 97,
@@ -1369,7 +1358,7 @@
             "asn1.js": 2260,
             "certificate.js": 1580,
             "aesid.json": 504,
-            "fixProc.js": 730
+            "fixProc.js": 721
           },
           "asn1.js": {
             "package.json": 71,
@@ -1402,7 +1391,7 @@
           },
           "create-ecdh": {
             "package.json": 94,
-            "browser.js": 1640
+            "browser.js": 1674
           },
           "public-encrypt": {
             "package.json": 97,
@@ -1462,7 +1451,7 @@
             }
           },
           "query-string": {
-            "index.js": 2114
+            "index.js": 2100
           },
           "strict-uri-encode": {
             "index.js": 167
@@ -1479,7 +1468,7 @@
           },
           "simple-get": {
             "package.json": 70,
-            "index.js": 1940
+            "index.js": 2134
           },
           "simple-concat": {
             "package.json": 73,
@@ -1875,14 +1864,14 @@
     "packages/autoupdate.js": 1998,
     "packages/global-imports.js": 940,
     "app/app.js": [
-      362762,
+      362779,
       {
         "imports": {
           "ui": {
             "body.html": 72,
             "template.body.js": 24424,
             "body.css": 317,
-            "body.js": 16981,
+            "body.js": 16998,
             "tablesort.js": 2098
           },
           "objects": {
