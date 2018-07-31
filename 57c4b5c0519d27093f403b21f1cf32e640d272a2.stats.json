@@ -3,8 +3,8 @@
     "name": "standard-minifier-js",
     "version": "2.3.4"
   },
-  "totalMinifiedBytes": 1716502,
-  "totalMinifiedGzipBytes": 509641,
+  "totalMinifiedBytes": 1717511,
+  "totalMinifiedGzipBytes": 510074,
   "minifiedBytesByPackage": {
     "packages/meteor.js": 9433,
     "packages/meteor-base.js": 31,
@@ -1695,18 +1695,18 @@
     ],
     "app/global-imports.js": 751,
     "app/app.js": [
-      70985,
+      71994,
       {
         "imports": {
           "ui": {
             "body.html": 74,
-            "template.body.js": 26678,
+            "template.body.js": 28130,
             "body.css": 461,
-            "body.js": 15490,
+            "body.js": 15209,
             "tablesort.js": 2091
           },
           "objects": {
-            "betoken.js": 5100,
+            "betoken.js": 4938,
             "abi": {
               "ERC20.json": 1962,
               "BetokenFund.json": 12222,
