@@ -3,8 +3,8 @@
     "name": "standard-minifier-js",
     "version": "2.3.4"
   },
-  "totalMinifiedBytes": 1723134,
-  "totalMinifiedGzipBytes": 510912,
+  "totalMinifiedBytes": 1723140,
+  "totalMinifiedGzipBytes": 510914,
   "minifiedBytesByPackage": {
     "packages/meteor.js": 9433,
     "packages/meteor-base.js": 31,
@@ -1694,7 +1694,7 @@
     ],
     "app/global-imports.js": 751,
     "app/app.js": [
-      77109,
+      77115,
       {
         "imports": {
           "ui": {
@@ -1713,7 +1713,7 @@
               "TestTokenFactory.json": 693,
               "TestKyberNetwork.json": 1709
             },
-            "kn_token_symbols.json": 233
+            "kn_token_symbols.json": 239
           }
         },
         "client": {
